@@ -25,14 +25,12 @@ def hangman():
 
         guessed_letters.append(guess)
 
-        # Correct or wrong guess
         if guess in word:
             print("✅ Good guess!")
         else:
             attempts -= 1
             print(f"❌ Wrong guess! Attempts left: {attempts}")
 
-        # Show progress
         display_word = ""
         for letter in word:
             if letter in guessed_letters:
