@@ -14,7 +14,6 @@ def hangman():
 
         if len(guess) != 1 or not guess.isalpha():
             print("Please enter only one letter.")
-            print("Please enter only one letter.")
             continue
 
         if guess in guessed_letters:
