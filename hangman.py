@@ -1,7 +1,7 @@
 import random
 
 def hangman():
-    words = ["python", "apple", "banana", "computer", "hangman"]
+    words = ["python", "apple", "banana", "computer", "hangman","saibabu"]
     word = random.choice(words)
     guessed_letters = []
     attempts = 6
